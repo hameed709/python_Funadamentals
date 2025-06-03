@@ -1,0 +1,8 @@
+n = 12121
+res = 0
+temp = n
+while n:
+    rem = n % 10
+    res = res * 10 + rem
+    n //= 10
+print("palindrome" if res == temp else "not palindrome")
